@@ -8,7 +8,7 @@ var autosubmit = require('../helpers/events').autosubmit;
 
 describe('inquirer overrides', function () {
   beforeEach(function () {
-    this.prompt = inquirer.createPromptModule({here: 'are some options'});
+    this.prompt = inquirer.createPromptModule();
   });
 
   it('should allow user to specify overrides', function () {
