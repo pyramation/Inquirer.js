@@ -1,5 +1,5 @@
 /**
- * Inquirer public API test
+ * Inquirer overrides
  */
 
 var expect = require('chai').expect;
